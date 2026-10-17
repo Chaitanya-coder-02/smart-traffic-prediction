@@ -1,0 +1,51 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.env
+
+# Models & Reports (large files — regenerate with train.py)
+models/best_pipeline.joblib
+reports/evaluation_report.json
+
+# Dataset (must be downloaded separately)
+data/*.csv
+data/*.zip
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python environments
+.venv/
+env/
+
+# Environment files
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python test and analysis caches
+.pytest_cache/
+.mypy_cache/
